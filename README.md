@@ -10,9 +10,10 @@ To run this application:
 
 The command "npm i" will need to be run to install node packages. 
 
-These three command will need to be run to establish and seed our database:
-source db/db.sql
+These two commands will need to be run to establish and seed our database:
+
 source db/schema.sql
+
 source db/seeds.sql
 
 Afterwards, we can run our application with the command "node server.js" or "npm start"
